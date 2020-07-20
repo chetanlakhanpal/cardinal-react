@@ -19,7 +19,4 @@ describe ('Table component', () => {
     expect(tableComponent).toMatchSnapshot()
   })
 
-  xit('itializes state with empty search field', () => {
-    expect(tableComponent.state()).toEqual({search: ''})
-  })
 })
