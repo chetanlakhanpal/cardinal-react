@@ -1,6 +1,6 @@
 import { SET_FEEDS_DATA, FEEDS_DATA_ERROR, SET_TOP_FEEDS, FEEDS_DATA_INIT, SET_FEED_PAGINATION } from '../../constants/feed.constant'
 
-const INITIAL_STATE = {
+export const INITIAL_STATE = {
   fetchInit: false,
   fetchError: '',
   feedsData: [],
